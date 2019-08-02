@@ -23,9 +23,18 @@ $background1:orange;
         font-family:$fontFam;
     }
 }
-
-
-
+// $desktopSize:840px;
+// @mixin desktopmq {
+//     @media (min-width:#{$desktopSize}){
+//         @content;
+//     }
+// }
+// @include desktopmq(){
+//     body{
+//         background-color:hotpink;
+//     }
+    
+// }
 
 // @font-face {
 //     font-family: "Gotham";

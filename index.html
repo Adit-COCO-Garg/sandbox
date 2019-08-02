@@ -14,9 +14,13 @@
         <h1>Site under development</h1>
     </section>
 </body>
+
 <script>
-    window.addEventListener("visibilitychange",()=>{
-        switch(document.visibilityState){
+    console.log(navigator.online ? "Navigator online" : "Navigator Offline");
+
+
+    window.addEventListener("visibilitychange", () => {
+        switch (document.visibilityState) {
             case "prerender":
                 console.log("Tab is pre-rendering");
                 break;
