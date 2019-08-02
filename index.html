@@ -3,13 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Welcome</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
 
 </head>
 
 <body>
     <!--Add HTML content if you wish. It will appear above your sketch-->
+    <section>
+        <h1>Site under development</h1>
+    </section>
 </body>
+<script>
+    window.addEventListener("visibilitychange",()=>{
+        switch(document.visibilityState){
+            case "prerender":
+                console.log("Tab is pre-rendering");
+                break;
+            case "hidden":
+                console.log("Tab is hidden");
+                break;
+            case "visible":
+                console.log("Tab is focused");
+                break;
+        }
+    })
+</script>
 
 </html>
