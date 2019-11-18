@@ -5,11 +5,7 @@
 $fontFam:"Open Sans", sans-serif;
 $padding:0;
 $margin:0;
-<<<<<<< HEAD
-$background1:pink;
-=======
 $background1:rgb(212, 219, 219);
->>>>>>> ff84ad73a4ac837355c54e2a4034fb9c098b94ce
 
 @include mq($from: desktop) {
     * {
