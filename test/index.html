@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Adit Garg</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js" integrity="sha256-nd3JLOQlNGixlXNjD4rPEwBNtIXCcsPW7jQW2C8HM/w=" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.1.5/pixi.js"></script> -->
+    <script type="text/javascript" src="sketch.js"></script>
+    <!-- <script type="text/javascript" src="pixiIntro.js"></script> -->
+</head>
+
+<body>
+    <!--Add HTML content if you wish. It will appear above your sketch-->
+    <section>
+        <div class="container">
+            <div class="inner">
+                <h1>Site under development</h1>
+                <p>Meanwhile check these out!</p>
+                <a href="https://www.linkedin.com/in/aditgarg21k">LinkedIn</a>
+                <a href="https://github.com/Adit-COCO-Garg">GitHub</a>
+                <a href="https://www.behance.net/aditgarg2178df">Behance</a>
+                <a href="https://portfolium.com/AditGarg">Portfolium</a>
+                
+            </div>
+        </div>
+        
+    </section>
+    <div class="card" style="--x: 0; --y:0">
+            <h1>Testing this</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, fugiat aspernatur mollitia ducimus veniam explicabo minus. Officiis rerum libero molestiae dolorem? Quae qui non eligendi explicabo optio amet voluptatum omnis!</p>
+        </div>
+        <script>
+                document.querySelector('.card').onmousemove = (e) => {
+            const x = e.pageX - e.target.offsetLeft;
+            const y = e.pageY - e.target.offsetTop;
+
+            e.target.style.setProperty('--x', `${ x }px`)
+            e.target.style.setProperty('--y', `${ y }px`)
+        }
+        </script>
+</body>
+
+<script>
+    console.log(navigator.online ? "Navigator online" : "Navigator Offline");
+
+    window.addEventListener("visibilitychange", () => {
+        switch (document.visibilityState) {
+            case "prerender":
+                console.log("Tab is pre-rendering");
+                break;
+            case "hidden":
+                console.log("Tab is hidden");
+                break;
+            case "visible":
+                console.log("Tab is focused");
+                break;
+        }
+    })
+</script>
+
+</html>

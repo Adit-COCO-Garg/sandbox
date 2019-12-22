@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800,900&display=swap");
+body {
+  font-family: "Roboto Slab", serif !important;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #fc0362;
+}
+
+::selection {
+  color: white;
+  background: #fc0362;
+}
+
+#container {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 26vh 1fr;
+      grid-template-rows: 26vh 1fr;
+  -ms-grid-columns: 23% 54% 23%;
+      grid-template-columns: 23% 54% 23%;
+}
+
+#doughnut {
+  z-index: 2;
+  top: -75px;
+  right: -75px;
+  -webkit-transform: rotate(-135deg);
+          transform: rotate(-135deg);
+  position: absolute;
+  width: 200px;
+}
+
+header {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+header #MyName {
+  font-size: medium;
+  letter-spacing: 2.54em;
+  line-height: 47px;
+  display: block;
+  text-align: center;
+}
+
+header #mainNav {
+  text-align: center;
+}
+
+main {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+main article {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 8rem 1fr;
+      grid-template-rows: 8rem 1fr;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+main article img {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  width: 90%;
+}
+
+main article h1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  font-size: 4rem;
+  font-style: normal;
+}
+
+main article p {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+main article p span {
+  font-weight: 500;
+  color: #fc0362;
+}
+
+aside {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
+aside nav button {
+  display: block;
+}
+
+aside nav button:nth-child(n+2) {
+  margin-top: 4rem;
+}
+
+button {
+  font-size: medium;
+  font-family: inherit;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 0.32em;
+  padding: 1em;
+  background-color: #ffffff;
+}
+
+button:hover {
+  background-color: #fc0362;
+  color: white;
+}
+
+button svg {
+  margin-right: 2rem;
+}
+
+#Nindo {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3 / 4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+}
+
+#Nindo article {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 3vh;
+  right: 3vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 3rem 1fr;
+      grid-template-columns: 3rem 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  padding: 1rem;
+  width: 12rem;
+  height: 12rem;
+}
+
+#Nindo article h1 {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: sideways;
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: 1rem;
+  margin-top: 0.7rem;
+  font-size: 1.3rem;
+}
+
+#Nindo article p {
+  font-size: 1.2rem;
+  line-height: 2.7rem;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1 / 2;
+  letter-spacing: 0.32rem;
+}
+/*# sourceMappingURL=styles.css.map */

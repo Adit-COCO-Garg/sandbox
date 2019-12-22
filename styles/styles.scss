@@ -1,0 +1,149 @@
+@import "root"; // $font-fam: 'Roboto Slab', sans-serif;
+
+
+body{
+    font-family: $font-fam !important; 
+    background-color: #FFFFFF;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    height:100vh;
+   
+}
+::-moz-selection { /* Code for Firefox */
+    color: white;
+    background: #fc0362;
+  }
+  
+  ::selection {
+    color: white;
+    background: #fc0362;
+  }
+#container{
+    height:100%;
+    display: grid;
+    grid-template-rows: 26vh 1fr;
+    grid-template-columns:23% 54% 23%;
+}
+
+#doughnut{
+    z-index: 2;
+    top:-75px;
+    right:-75px;
+    transform:rotate(-135deg);
+    position: absolute;
+    width:200px;
+    
+}
+header{
+    grid-column: 2 / 3;
+    #MyName{
+        font-size: medium;
+        letter-spacing: 2.54em;
+        line-height: 47px;
+        display: block;
+        text-align: center;
+    }
+    #mainNav{
+        text-align: center;
+    }
+}
+
+main{
+    grid-column: 2 / 3;
+    article{
+        display: grid;
+        grid-template-rows: 8rem 1fr;
+        grid-template-columns: 50% 50%;
+        img{
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+            width:90%;
+        }
+        h1{
+            grid-row: 1 / 2;
+            grid-column: 2 / 3;
+            font-size: 4rem;
+            font-style: normal;
+        }
+        p{
+            grid-row: 2 / 3;
+            grid-column: 2 / 3;
+            span{
+                
+                font-weight:500;
+                color:#fc0362;
+            }
+        }
+    }
+}
+aside{
+    grid-column: 1 / 2;
+    nav{
+        button{
+            display: block;
+            &:nth-child(n+2){
+                margin-top: 4rem;
+            }
+        }
+    }
+}
+
+button {
+    font-size: medium;
+    font-family: inherit;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 0.32em;
+    padding:1em;
+    background-color:#ffffff;
+    &:hover{
+        background-color: #fc0362;
+        color: white;
+    } 
+    svg{
+        margin-right:2rem;
+    }
+}
+
+#Nindo{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    article{
+        display: inline-block;
+        background-color: black;
+        color:white;
+        position: absolute;
+        bottom: 3vh;
+        right: 3vh;
+        display:grid;
+        grid-template-columns: 3rem 1fr;
+        grid-template-rows: 1fr;
+        padding:1rem;
+        width:12rem;
+        height:12rem;
+        
+
+        h1{
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+            writing-mode: vertical-rl;
+            text-orientation: sideways;
+            font-weight: normal;
+            font-size:1rem;
+            letter-spacing: 1rem;
+            margin-top:0.7rem;
+            font-size: 1.3rem;
+        }
+       p{
+           font-size:1.2rem;
+           line-height: 2.7rem;
+           grid-column: 2 / 3;
+           grid-row: 1 / 2;
+           letter-spacing: 0.32rem;
+           
+       }
+    }
+    
+}
