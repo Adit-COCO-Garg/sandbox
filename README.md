@@ -4,5 +4,7 @@
 A portfolio? A sketchbook? A website? We may never know 🤔
 A snapshot of the website
 <br>
+
+
 ![Portfolio Image](Assets/GitHubAssets/Portfolio.png)
 
