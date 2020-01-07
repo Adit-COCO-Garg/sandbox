@@ -1,9 +1,13 @@
 ##### NOTE THIS WEBSITE IS NOT MOBILE FRIENDLY ON PURPOSE, I AM IN THE PROCESS OF LEARNING FLUTTER AND REACT. WHICH MIGHT CHANGE THE WEBSITE COMPLETELY. AS FOR NOW A SIMPLE MOBILE VERSION IS IN THE WORKS.  
   
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-# sandbox
-A portfolio? A sketchbook? A website? We may never know, all we know it's Adit's website of experiments. The deeper you dig the more you question the insanity of the experiments ran under the hood. Don't be fooled by the simple sweet UI. 
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)  
+
+## 👾 Sandbox of experiments and love - a playground/ test-site 🥽
+  
+A portfolio? A sketchbook? A website? We may never know, all we know it's Adit's website of crazy cool experiments.  
+  
+The deeper you dig the more you question the insanity of the experiments ran under the hood. Don't be fooled by the simple sweet UI. 
 
 This whole sandbox project is an exploration into creating immersive experiences. This is just the first MVP.
 
