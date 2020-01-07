@@ -1,3 +1,5 @@
+##### NOTE THIS WEBSITE IS NOT MOBILE FRIENDLY ON PURPOSE, I AM IN THE PROCESS OF LEARNING FLUTTER AND REACT. WHICH MIGHT CHANGE THE WEBSITE COMPLETELY. AS FOR NOW A SIMPLE MOBILE VERSION IS IN THE WORKS.  
+  
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
 # sandbox
