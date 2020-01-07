@@ -7,6 +7,8 @@ A portfolio? A sketchbook? A website? We may never know 🤔
 
 This whole sandbox project is an exploration into creating immersive experiences. This is just the first MVP.
 
+Checkout [test](/test "Directory link to crazy cool experiments") Directory for crazy cool experiments.
+
 
 The website uses up to date JavaScript (ECMAScript 2019), SCSS (SASS/ CSS), and HTML5 practices and features. It focuses on maximizing efficiency using appropriate languages, plugins, libraries, etc wherever needed.
 
