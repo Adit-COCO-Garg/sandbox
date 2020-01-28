@@ -46,6 +46,8 @@ header {
 }
 
 header #MyName {
+  padding: 0.3rem;
+  background-color: white;
   font-size: medium;
   letter-spacing: 2.54em;
   line-height: 47px;
