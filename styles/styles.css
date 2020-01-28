@@ -160,13 +160,13 @@ button svg {
   right: 3vh;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 3rem 1fr;
-      grid-template-columns: 3rem 1fr;
+  -ms-grid-columns: 3vw 1fr;
+      grid-template-columns: 3vw 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-  padding: 1rem;
-  width: 12rem;
-  height: 12rem;
+  padding: 1vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 #Nindo article h1 {
@@ -181,43 +181,20 @@ button svg {
           writing-mode: vertical-rl;
   text-orientation: sideways;
   font-weight: normal;
-  font-size: 1rem;
-  letter-spacing: 1rem;
-  margin-top: 0.7rem;
-  font-size: 1.3rem;
+  font-size: 1vw;
+  letter-spacing: 1vw;
+  margin: 0.5vh auto;
 }
 
 #Nindo article p {
-  font-size: 1.2rem;
-  line-height: 2.7rem;
+  font-size: 1vw;
+  line-height: 2.7vw;
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2 / 3;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
-  letter-spacing: 0.32rem;
-}
-
-footer .alert {
-  padding: 20px;
-  background-color: #f44336;
-  color: white;
-}
-
-footer .closebtn {
-  margin-left: 15px;
-  color: white;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-footer .closebtn:hover {
-  color: black;
+  letter-spacing: 0.32vw;
 }
 /*# sourceMappingURL=styles.css.map */
