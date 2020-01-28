@@ -66,8 +66,8 @@ main {
 main article {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 8rem 1fr;
-      grid-template-rows: 8rem 1fr;
+  -ms-grid-rows: 5.65rem 1fr;
+      grid-template-rows: 5.65rem 1fr;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
 }
@@ -91,6 +91,7 @@ main article h1 {
   grid-column: 2 / 3;
   font-size: 4rem;
   font-style: normal;
+  margin: 0;
 }
 
 main article p {
@@ -196,5 +197,27 @@ button svg {
   -ms-grid-row-span: 1;
   grid-row: 1 / 2;
   letter-spacing: 0.32rem;
+}
+
+footer .alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+footer .closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer .closebtn:hover {
+  color: black;
 }
 /*# sourceMappingURL=styles.css.map */

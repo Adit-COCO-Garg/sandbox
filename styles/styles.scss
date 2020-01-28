@@ -53,7 +53,7 @@ main{
     grid-column: 2 / 3;
     article{
         display: grid;
-        grid-template-rows: 8rem 1fr;
+        grid-template-rows: 5.65rem 1fr;
         grid-template-columns: 50% 50%;
         img{
             grid-row: 1 / 2;
@@ -65,6 +65,7 @@ main{
             grid-column: 2 / 3;
             font-size: 4rem;
             font-style: normal;
+            margin:0;
         }
         p{
             grid-row: 2 / 3;
@@ -146,4 +147,28 @@ button {
        }
     }
     
+}
+
+footer{
+    .alert {
+        padding: 20px;
+        background-color: #f44336;
+        color: white;
+      }
+      
+      .closebtn {
+        margin-left: 15px;
+        color: white;
+        font-weight: bold;
+        float: right;
+        font-size: 22px;
+        line-height: 20px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      
+      .closebtn:hover {
+        color: black;
+      }
+
 }
