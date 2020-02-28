@@ -47,12 +47,12 @@ header {
 
 header #MyName {
   padding: 0.3rem;
-  background-color: white;
   font-size: medium;
   letter-spacing: 2.54em;
   line-height: 47px;
   display: block;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 header #mainNav {
@@ -132,7 +132,7 @@ button {
   cursor: pointer;
   letter-spacing: 0.32em;
   padding: 1em;
-  background-color: #ffffff;
+  background: none;
 }
 
 button:hover {

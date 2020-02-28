@@ -39,12 +39,12 @@ header{
     grid-column: 2 / 3;
     #MyName{
         padding:0.3rem;
-        background-color: white;
         font-size: medium;
         letter-spacing: 2.54em;
         line-height: 47px;
         display: block;
         text-align: center;
+        background-color: rgba($color: #ffffff, $alpha: 0.8);
     }
     #mainNav{
         text-align: center;
@@ -100,7 +100,7 @@ button {
     cursor: pointer;
     letter-spacing: 0.32em;
     padding:1em;
-    background-color:#ffffff;
+    background: none;
     &:hover{
         background-color: #fc0362;
         color: white;
