@@ -1,0 +1,77 @@
+#BACK {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+      user-select: none;
+  width: 50%;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body {
+  background-color: black;
+}
+
+#name {
+  -webkit-font-feature-settings: "salt";
+          font-feature-settings: "salt";
+  font-family: "Have Heart One";
+}
+
+#rest {
+  position: absolute;
+  font-family: "Have Heart One";
+}
+
+#namee {
+  color: rgba(255, 255, 255, 0);
+  top: 48vh;
+  left: 45.4vw;
+  letter-spacing: 2px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 7vw;
+}
+
+#always {
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50vh;
+  left: 57vw;
+  position: absolute;
+  color: white;
+  font-family: "Lemon/Milk light";
+  font-style: italic;
+  letter-spacing: 0.3vw;
+  font-size: 1vw;
+}
+
+.nindo-cn, .nindo-en {
+  top: 50vh;
+  left: 63vw;
+  position: absolute;
+  font-family: "Zhi Mang Xing";
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: white;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: 2.8vw;
+  -webkit-animation: fadeIn 2s ease-in , fadeOut 2s ease-out 8s;
+          animation: fadeIn 2s ease-in , fadeOut 2s ease-out 8s;
+}
+
+.nindo-en {
+  left: 67vw;
+  letter-spacing: 13px;
+  font-family: "DOSIS";
+  font-size: 1vw;
+}
+/*# sourceMappingURL=styles2.css.map */
