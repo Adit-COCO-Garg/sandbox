@@ -10,6 +10,7 @@ body {
     background-color: black;
     font-family: 'Roboto Slab', serif;
     color: white;
+    overflow-x: hidden;
     ::selection {
         color: white;
         background: rgb(255, 0, 128);
@@ -223,6 +224,23 @@ header {
     }
 
 }
+
+#design{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    margin: 0 5vh;
+    article{
+        margin:1rem;
+        display: inline;
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+    
+}
+    
 
 main {
     display: flex;
