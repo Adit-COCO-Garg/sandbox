@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
-@font-face { font-family: "Have Heart One"; src: url('/Assets/Have Heart One.otf'); } 
+@font-face { font-family: "Have Heart One1"; src: url('/Assets/Have\ Heart\ One.otf'); } 
 // grid-template-rows: 15vh 45vh 1fr;
 // grid-template-columns: 15fr 25fr 45fr 15fr;
 body {
@@ -279,7 +279,7 @@ main {
         display: block;
     }
     h1{
-        font-family: "Have Heart One"; 
+        font-family: "Have Heart One1"; 
         font-feature-settings: "salt"; 
         display: inline;
         padding: 2rem;

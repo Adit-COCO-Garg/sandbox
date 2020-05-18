@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
 @font-face {
-  font-family: "Have Heart One";
+  font-family: "Have Heart One1";
   src: url("/Assets/Have Heart One.otf");
 }
 
@@ -326,7 +326,7 @@ main {
 }
 
 #asideSocialLinks h1 {
-  font-family: "Have Heart One";
+  font-family: "Have Heart One1";
   -webkit-font-feature-settings: "salt";
           font-feature-settings: "salt";
   display: inline;
