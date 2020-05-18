@@ -153,6 +153,18 @@ button:hover i, button:hover svg {
   padding: 3rem;
 }
 
+#roleStat {
+  position: absolute;
+  right: 0;
+  margin-right: 10vw;
+  font-family: 'Dosis', sans-serif;
+  top: 16vh;
+  padding: 1rem 0.5rem 1rem 1rem;
+  background-color: #ff0055;
+  opacity: 0.9;
+  letter-spacing: 0.5rem;
+}
+
 header h1 {
   margin: 0;
   text-align: right;
