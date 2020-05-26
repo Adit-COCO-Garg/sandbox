@@ -121,16 +121,16 @@ nav a:nth-child(3) {
   background-color: #222222;
 }
 
-button {
+a {
   border: none;
   background-color: transparent;
 }
 
-button:hover {
+a:hover {
   background-color: #ff0055;
 }
 
-button:hover i, button:hover svg {
+a:hover i, a:hover svg {
   color: white;
   fill: white;
 }
@@ -193,24 +193,28 @@ header #techIcons .htmlIcon {
   color: orange;
 }
 
-header #techIcons button {
+header #techIcons div {
+  margin: 1rem;
+}
+
+header #techIcons a {
   background-color: #0f0f0f;
   cursor: pointer;
   padding: 1rem;
   margin: 1.3rem 0rem;
 }
 
-header #techIcons button i {
+header #techIcons a i {
   color: #b8b8b8;
   font-size: 1.4rem;
   padding: 0;
 }
 
-header #techIcons button:hover {
+header #techIcons a:hover {
   background-color: #ff0055;
 }
 
-header #techIcons button:hover i, header #techIcons button:hover svg {
+header #techIcons a:hover i, header #techIcons a:hover svg {
   color: white;
   fill: white;
 }
@@ -333,7 +337,7 @@ main {
   left: 0;
 }
 
-#asideSocialLinks button {
+#asideSocialLinks a {
   display: block;
 }
 
