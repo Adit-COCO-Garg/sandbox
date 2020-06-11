@@ -10,7 +10,7 @@ function hamburgerSetup(){
     hamburger =  document.querySelector(".hamburger");
     navElem = document.querySelector("#top > nav");
     hamburger.addEventListener("click", openHamburger);
-    document.querySelector("#introsectionMain").addEventListener("click",()=>{
+    document.querySelector("#disasterTrackerSection").addEventListener("click",()=>{
         window.location = "disastertracker.html";
     }) // #TODO: SEP CONCERNS
 }

@@ -36,10 +36,20 @@ a {
 @media only screen and (max-width: 767px) {
   #top {
     height: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #top h1 {
-    font-size: 2.4rem;
-    top: -0.7rem;
+    font-size: 2.5rem;
+    margin-left: 7.5vw;
+    -webkit-font-feature-settings: "salt";
+            font-feature-settings: "salt";
+    font-family: "Have Heart One";
+    font-style: italic;
   }
   #top nav {
     display: none;
@@ -48,6 +58,7 @@ a {
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: black;
+    z-index: 5;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -67,7 +78,7 @@ a {
   #top button {
     display: block;
     margin-right: 7.5vw;
-    z-index: 1;
+    z-index: 6;
     padding: 0.6rem;
   }
   #top button:hover {
@@ -79,12 +90,33 @@ a {
     width: 1.5rem;
     stroke-width: 0.18rem;
   }
-  #introsectionMain {
+  .introsectionMain {
     width: 70%;
-    margin: 0 auto;
     background-color: #080808;
     border: 1px solid rgba(49, 49, 49, 0.7);
-    padding: 3rem;
+    padding: 2rem;
+    margin: 1rem;
+  }
+  .introsectionMain header {
+    text-align: center;
+  }
+  #disasterTrackerSection:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 30px #ff0080;
+            box-shadow: 0 0 30px #ff0080;
+  }
+  .introArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .introArticle p {
+    max-width: 70ch;
+    font-family: "Roboto";
   }
   #roleStat {
     position: absolute;
@@ -102,18 +134,24 @@ a {
     font-weight: normal;
     font-size: 4rem;
   }
-  header #techIcons i {
+  header .techIcons i {
     padding: 0.5rem 1rem 1rem 1rem;
     font-size: 2rem;
   }
-  header #techIcons .jsIcon {
+  header .techIcons .jsIcon {
     color: yellow;
   }
-  header #techIcons .sassIcon {
+  header .techIcons .sassIcon {
     color: salmon;
   }
-  header #techIcons .htmlIcon {
+  header .techIcons .htmlIcon {
     color: orange;
+  }
+  header .techIcons .reactIcon {
+    color: #47baf0;
+  }
+  header .techIcons .pythonIcon {
+    color: #FFD43B;
   }
   .projLinks {
     margin: 1rem;
@@ -131,9 +169,6 @@ a {
     background-color: #ff0055;
     color: white;
     fill: white;
-  }
-  #introArticle {
-    margin: 2rem 0 0 1rem;
   }
   #asideSocialLinks {
     margin: 3rem 0 1rem 0;
@@ -172,10 +207,20 @@ a {
 @media only screen and (min-width: 768px) {
   #top {
     height: 15vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #top h1 {
     font-size: 2.5rem;
-    top: -0.8rem;
+    margin-left: 7.5vw;
+    -webkit-font-feature-settings: "salt";
+            font-feature-settings: "salt";
+    font-family: "Have Heart One";
+    font-style: italic;
   }
   #top nav {
     margin-right: 7.5vw;
@@ -203,7 +248,7 @@ a {
   #top .hamburger {
     display: none;
   }
-  #introsectionMain {
+  .introsectionMain {
     max-width: 800px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,7 +256,7 @@ a {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -219,12 +264,15 @@ a {
     border: 1px solid rgba(49, 49, 49, 0.7);
     padding: 3rem;
   }
-  #introsectionMain:hover {
+  .introsectionMain .tooBigH1 {
+    font-size: 4rem;
+  }
+  #disasterTrackerSection:hover {
     cursor: pointer;
     -webkit-box-shadow: 0 0 30px #ff0080;
             box-shadow: 0 0 30px #ff0080;
   }
-  #introSection {
+  .introSection {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -253,23 +301,29 @@ a {
     font-weight: normal;
     font-size: 6rem;
   }
-  header #techIcons {
+  header .techIcons {
     text-align: right;
   }
-  header #techIcons i {
+  header .techIcons i {
     padding: 1rem;
     font-size: 2rem;
   }
-  header #techIcons .jsIcon {
+  header .techIcons .jsIcon {
     color: yellow;
   }
-  header #techIcons .sassIcon {
+  header .techIcons .sassIcon {
     color: salmon;
   }
-  header #techIcons .htmlIcon {
+  header .techIcons .htmlIcon {
     color: orange;
   }
-  header #techIcons div {
+  header .techIcons .reactIcon {
+    color: #47baf0;
+  }
+  header .techIcons .pythonIcon {
+    color: #FFD43B;
+  }
+  header .techIcons div {
     margin: 1rem;
   }
   .projLinks {
@@ -290,7 +344,7 @@ a {
     color: white;
     fill: white;
   }
-  #introArticle {
+  .introArticle {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -298,15 +352,16 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 3rem 0 0 4rem;
+    margin: 1rem 0 0 4rem;
   }
-  #introArticle p {
+  .introArticle p {
     max-width: 70ch;
+    font-family: "Roboto";
   }
-  #DistArticle {
+  .DistArticle {
     margin-left: 4rem;
   }
-  #DistArticle p {
+  .DistArticle p {
     max-width: 70ch;
   }
   #asideSocialLinks {
@@ -349,7 +404,7 @@ a {
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-#top {
+.top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -360,12 +415,12 @@ a {
           align-items: center;
 }
 
-#top button {
+.top button {
   border: none;
   background-color: transparent;
 }
 
-#top h1 {
+.top h1 {
   -webkit-box-flex: 10;
       -ms-flex-positive: 10;
           flex-grow: 10;
