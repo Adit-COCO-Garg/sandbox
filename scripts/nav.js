@@ -3,25 +3,25 @@ window.addEventListener("load", hamburgerSetup);
 
 
 let state = false;
-let hamburger, navElem;
+let hamburger, navElem, asideLinks;
 
 
 function hamburgerSetup(){
     hamburger =  document.querySelector(".hamburger");
     navElem = document.querySelector("#top > nav");
+    asideLinks = document.querySelector("#asideSocialLinks")
     hamburger.addEventListener("click", openHamburger);
-    document.querySelector("#disasterTrackerSection").addEventListener("click",()=>{
-        window.location = "disastertracker.html";
-    }) // #TODO: SEP CONCERNS
 }
 
 function openHamburger(){
     if (!state) {
         hamburger.classList.add("is-active");
         navElem.style.display = "flex"; 
+        asideLinks.style.display = "none";
     } else {
         hamburger.classList.remove("is-active");
         navElem.style.display = "none"; 
+        asideLinks.style.display = "flex";
     }
     state = !state;
 }

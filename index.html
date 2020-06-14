@@ -31,12 +31,13 @@
     </button>
     <nav>
         <span class="selectedBtn">HOME</span>
+        <a href="/projects.html">PROJECTS</a>
         <a href="/design.html">DESIGN</a>
         <a class="typeform-share link" href="https://aditgarg.typeform.com/to/akEPdF" data-mode="popup" data-hide-headers=true data-hide-footer=true data-submit-close-delay="2" target="_blank">CONTACT </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
         <a href="https://drive.google.com/drive/u/2/folders/1l0tgUKhGf4jtXuDX-O8ZTLsKojqwDvrn" target="_blank" rel="noopener noreferrer">RESUME</a>
     </nav>
 </section>
-    <section class="introsectionMain" id="disasterTrackerSection">
+    <section class="introsectionMain" id="disasterTrackerSection" onclick="">
         <!-- <span id="roleStat">SOLO</span> -->
         <header>
             <h1>disaster <br> tracker</h1>
@@ -51,7 +52,6 @@
                 <a href="https://github.com/Adit-COCO-Garg/IGME330/tree/master/Project%203" target="_blank" rel="noopener noreferrer"><i class="fab fa-git"></i></a>
                 <a href="https://people.rit.edu/ag9126/330/exercises/Project%203/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i></a>
             </section>
-           
         </header>
         <article class="introArticle">
             <p>
@@ -64,6 +64,11 @@
             </p>
         </article>
     </section>
+    <script>
+        document.querySelector("#disasterTrackerSection").addEventListener("click",()=>{
+        window.location = "disastertracker.html";
+    })
+    </script>
     <section class="introsectionMain">
         <!-- <span id="roleStat">SOLO</span> -->
         <header>

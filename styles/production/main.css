@@ -121,10 +121,6 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
           font-feature-settings: "salt";
 }
 
-.techIcons {
-  text-align: right;
-}
-
 .techIcons i {
   padding: 0.5rem 1rem 1rem 1rem;
   font-size: 2rem;
@@ -150,6 +146,11 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #FFD43B;
 }
 
+.introsectionMain, .tiles .tile {
+  background-color: #080808;
+  border: 1px solid rgba(49, 49, 49, 0.7);
+}
+
 #disasterTrackerSection:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 0 30px var(--accent-color);
@@ -162,8 +163,91 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 .introsectionMain {
   width: 70%;
-  background-color: #080808;
-  border: 1px solid rgba(49, 49, 49, 0.7);
+}
+
+.design {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3rem 7.5vw;
+}
+
+.design img {
+  margin: 0 1rem 1rem 0;
+  width: 300px;
+}
+
+.design img:hover {
+  -webkit-transition: all 300ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 300ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  -webkit-transform: translate(-1px, -10px);
+          transform: translate(-1px, -10px);
+}
+
+.design a:hover {
+  background-color: transparent;
+}
+
+.tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.tiles .tile {
+  margin: 1rem;
+  width: 19rem;
+  height: 19rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tiles .tile:hover {
+  -webkit-box-shadow: 0 0 30px var(--accent-color);
+          box-shadow: 0 0 30px var(--accent-color);
+}
+
+.tiles .tile header .projLinks {
+  text-align: left;
+}
+
+.tiles .tile header .techIcons {
+  text-align: center;
+}
+
+.tiles .tile header h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.tiles .tile header #audioH1 {
+  font-size: 2rem;
+}
+
+.tiles .tile header #giphyH1 {
+  font-size: 3rem;
+}
+
+.tiles .tile p {
+  text-align: center;
+  margin: 0 2rem;
+}
+
+.tiles a:hover {
+  background-color: transparent;
 }
 
 #top {
@@ -255,7 +339,7 @@ canvas {
             justify-content: space-evenly;
   }
   #top nav a, #top nav span {
-    padding: 11vh;
+    padding: 8vh;
   }
   #top nav .selectedBtn {
     border: none;
@@ -265,6 +349,11 @@ canvas {
     stroke: white;
     width: 1.5rem;
     stroke-width: 0.18rem;
+  }
+  .tiles {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .hamburger {
     display: block;
@@ -395,6 +484,17 @@ canvas {
             justify-content: center;
     height: 100vh;
     left: 0;
+  }
+  .techIcons {
+    text-align: right;
+  }
+  .tiles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 3rem 7.5vw;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
