@@ -35,7 +35,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Roboto Slab", serif;
 }
 
-#top nav {
+.tiles .tile .status, #top nav {
   font-family: "Dosis", sans-serif;
 }
 
@@ -111,7 +111,7 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Roboto Slab", serif;
 }
 
-#top nav {
+.tiles .tile .status, #top nav {
   font-family: "Dosis", sans-serif;
 }
 
@@ -170,6 +170,8 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   display: -ms-flexbox;
   display: flex;
   margin: 3rem 7.5vw;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .design img {
@@ -220,6 +222,16 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
           box-shadow: 0 0 30px var(--accent-color);
 }
 
+.tiles .tile .status {
+  color: white;
+  letter-spacing: 0.3rem;
+  position: absolute;
+  -webkit-transform: translate(-5.8rem, -8.3rem);
+          transform: translate(-5.8rem, -8.3rem);
+  background-color: var(--accent-color);
+  padding-left: 3rem;
+}
+
 .tiles .tile header .projLinks {
   text-align: left;
 }
@@ -229,6 +241,11 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   text-align: center;
 }
 
+.tiles .tile header .techIcons img {
+  margin: auto 0.7rem;
+  width: 3rem;
+}
+
 .tiles .tile header h1 {
   font-size: 4rem;
   text-align: center;
@@ -236,10 +253,15 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 
 .tiles .tile header #audioH1 {
   font-size: 2rem;
+  max-width: 10ch;
 }
 
 .tiles .tile header #giphyH1 {
-  font-size: 3rem;
+  font-size: 2.8rem;
+}
+
+.tiles .tile header #quantaH1 {
+  font-size: 2.7rem;
 }
 
 .tiles .tile p {
