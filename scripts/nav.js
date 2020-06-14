@@ -26,13 +26,13 @@ function openHamburger(){
     state = !state;
 }
 
-// function resizedHam(){
-//     if (screen.width > 767){
-        
-//         hamburger.classList.remove("is-active");
-//         state = false;
-//     }
-// }
+function resizedHam(){
+    if (screen.width > 767){
+        hamburger.classList.remove("is-active");
+        navElem.style.display = "flex";
+        state = false;
+    }
+}
  
 // #TODO: BUG when resizing from within a expanded hamburger the 
 // top nav is broken due to the direact overwrite of display

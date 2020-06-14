@@ -1,0 +1,409 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+:root {
+  --accent-color: rgb(255, 0, 85);
+  --background-color: black;
+  --paragraph-color: rgb(226, 226, 226);
+  --heading-color:rgb(255, 255, 255);
+  --caption-color:white;
+  --nav-color:white;
+}
+
+[data-theme="light"] {
+  --accent-color: rgb(255, 0, 85);
+  --background-color: #eeeeee;
+  --paragraph-color: #424242;
+  --heading-color:black;
+  --caption-color:black;
+  --nav-color:black;
+}
+
+@font-face {
+  font-family: "Have Heart One";
+  src: url("/Assets/Have Heart One.otf");
+}
+
+body p, body caption {
+  font-family: "Roboto", sans-serif;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+#top nav {
+  font-family: "Dosis", sans-serif;
+}
+
+#top h1 {
+  font-family: "Have Heart One";
+  -webkit-font-feature-settings: "salt";
+          font-feature-settings: "salt";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: var(--background-color);
+}
+
+body ::-moz-selection {
+  color: var(--paragraph-color);
+  background: var(--accent-color);
+}
+
+body ::selection {
+  color: var(--paragraph-color);
+  background: var(--accent-color);
+}
+
+body a {
+  text-decoration: none;
+  color: var(--paragraph-color);
+  cursor: pointer;
+}
+
+body a:hover {
+  background-color: var(--accent-color);
+}
+
+body a:active {
+  cursor: default;
+}
+
+body a:active:hover {
+  background-color: #222222;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  color: var(--heading-color);
+}
+
+body p {
+  max-width: 70ch;
+  color: var(--paragraph-color);
+}
+
+body caption {
+  max-width: 70ch;
+  color: var(--caption-color);
+  font-style: italic;
+  opacity: 0.8;
+}
+
+@font-face {
+  font-family: "Have Heart One";
+  src: url("/Assets/Have Heart One.otf");
+}
+
+body p, body caption {
+  font-family: "Roboto", sans-serif;
+}
+
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+#top nav {
+  font-family: "Dosis", sans-serif;
+}
+
+#top h1 {
+  font-family: "Have Heart One";
+  -webkit-font-feature-settings: "salt";
+          font-feature-settings: "salt";
+}
+
+.techIcons {
+  text-align: right;
+}
+
+.techIcons i {
+  padding: 0.5rem 1rem 1rem 1rem;
+  font-size: 2rem;
+}
+
+.techIcons .jsIcon {
+  color: yellow;
+}
+
+.techIcons .sassIcon {
+  color: salmon;
+}
+
+.techIcons .htmlIcon {
+  color: orange;
+}
+
+.techIcons .reactIcon {
+  color: #47baf0;
+}
+
+.techIcons .pythonIcon {
+  color: #FFD43B;
+}
+
+#disasterTrackerSection:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 30px var(--accent-color);
+          box-shadow: 0 0 30px var(--accent-color);
+}
+
+#asideSocialLinks a {
+  display: block;
+}
+
+.introsectionMain {
+  width: 70%;
+  background-color: #080808;
+  border: 1px solid rgba(49, 49, 49, 0.7);
+}
+
+#top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#top h1 {
+  font-size: 2.5rem;
+  margin-left: 7.5vw;
+  font-style: italic;
+}
+
+#top nav {
+  margin-right: 7.5vw;
+  font-size: 1rem;
+  letter-spacing: 0.4rem;
+}
+
+.projLinks {
+  margin: 1rem;
+}
+
+.projLinks a i {
+  color: #b8b8b8;
+  font-size: 1.4rem;
+  background-color: #0f0f0f;
+  padding: 1rem 1rem;
+}
+
+.projLinks a i:hover {
+  background-color: #ff0055;
+  color: white;
+  fill: white;
+}
+
+#asideSocialLinks {
+  z-index: 2;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#asideSocialLinks i {
+  padding: 1rem;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.selectedBtn {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #8f8f8f;
+  cursor: default;
+}
+
+.selectedBtn:hover {
+  background-color: #222222;
+}
+
+#underwork {
+  width: 70%;
+  margin: 3rem auto;
+}
+
+#underwork p {
+  text-align: center;
+}
+
+canvas {
+  opacity: 0.21;
+}
+
+@media only screen and (max-width: 767px) {
+  #top {
+    height: 10vh;
+  }
+  #top nav {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: var(--background-color);
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  #top nav a, #top nav span {
+    padding: 11vh;
+  }
+  #top nav .selectedBtn {
+    border: none;
+  }
+  #top nav svg {
+    display: block !important;
+    stroke: white;
+    width: 1.5rem;
+    stroke-width: 0.18rem;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 7.5vw;
+    z-index: 7;
+    padding: 0.6rem;
+  }
+  .hamburger:hover {
+    background-color: #525252;
+  }
+  .introsectionMain {
+    padding: 2rem;
+    margin: 1rem auto;
+  }
+  .introsectionMain header {
+    text-align: center;
+  }
+  .introArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 4rem;
+  }
+  #asideSocialLinks {
+    margin: 3rem 0 1rem 0;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 100vw;
+  }
+  .techIcons {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  #top {
+    height: 15vh;
+  }
+  #top nav {
+    margin-right: 7.5vw;
+    -webkit-box-flex: 90;
+        -ms-flex-positive: 90;
+            flex-grow: 90;
+    font-family: 'Dosis', sans-serif;
+    text-align: right;
+    font-size: 1rem;
+    letter-spacing: 0.4rem;
+  }
+  #top nav a, #top nav span {
+    color: white;
+    margin-right: -0.4rem;
+    padding: 1rem 0.6rem 1rem 1rem;
+  }
+  #top nav a:nth-child(3) {
+    padding: 1rem 0rem 1rem 1rem;
+    margin-right: 0.02rem;
+  }
+  .hamburger {
+    display: none;
+  }
+  .introsectionMain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    padding: 3rem;
+  }
+  .introsectionMain .tooBigH1 {
+    font-size: 4rem;
+  }
+  .introSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+  }
+  header > h1 {
+    margin: 0;
+    text-align: right;
+    font-weight: normal;
+    font-size: 6rem;
+  }
+  .projLinks {
+    text-align: right;
+  }
+  .introArticle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 1rem 0 0 4rem;
+  }
+  .DistArticle {
+    margin-left: 4rem;
+  }
+  #asideSocialLinks {
+    top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100vh;
+    left: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */

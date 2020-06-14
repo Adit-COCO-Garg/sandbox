@@ -18,8 +18,11 @@ var particles = [];
 var backgroundColor;
 var color_from;
 var color_to;
-
+window.addEventListener("resize",()=>{
+	setup();
+})
 function setup(){
+	
 	randomSeed(seed);
 	noiseSeed(seed);
 	nums = 100;
@@ -108,7 +111,7 @@ function Particle(){
 	this.pos = createVector(random(0, width), random(0, height));
 	this.life = random(0, maxLife);
 	this.flip = int(random(0,2)) * 2 - 1;
-	this.color1 = this.color2 = color('white');
+	this.color1 = this.color2 = color('black');
 	
 	if(int(random(3)) == 1){
 		//this.color1 = color('palegreen');

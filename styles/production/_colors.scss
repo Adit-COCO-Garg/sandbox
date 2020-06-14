@@ -1,0 +1,18 @@
+:root {
+    --accent-color: rgb(255, 0, 85);
+    --background-color: black;
+    --paragraph-color: rgb(226, 226, 226);
+    --heading-color:rgb(255, 255, 255);
+    --caption-color:white;
+    --nav-color:white;
+}
+
+[data-theme="light"]  {
+    --accent-color: rgb(255, 0, 85);
+    --background-color: #eeeeee;
+    --paragraph-color: #424242;
+    --heading-color:black;
+    --caption-color:black;
+    --nav-color:black;
+}
+
