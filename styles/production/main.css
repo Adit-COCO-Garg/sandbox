@@ -228,15 +228,6 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   background-color: #222222;
 }
 
-#underwork {
-  width: 70%;
-  margin: 3rem auto;
-}
-
-#underwork p {
-  text-align: center;
-}
-
 canvas {
   opacity: 0.21;
 }
@@ -405,5 +396,16 @@ canvas {
     height: 100vh;
     left: 0;
   }
+}
+
+#underwork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3rem auto;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
