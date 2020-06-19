@@ -339,6 +339,53 @@ canvas {
   opacity: 0.21;
 }
 
+#NINDO {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 3rem auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 9fr;
+      grid-template-columns: 1fr 9fr;
+  background-color: transparent;
+  border: none;
+}
+
+#NINDO p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+  line-height: 1.3rem;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+}
+
+#NINDO span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 7rem;
+  color: white;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+}
+
 @media only screen and (max-width: 767px) {
   #top {
     height: 10vh;
@@ -372,6 +419,9 @@ canvas {
     stroke: white;
     width: 1.5rem;
     stroke-width: 0.18rem;
+  }
+  #NINDO {
+    margin: 1rem;
   }
   .tiles {
     -webkit-box-pack: center;
@@ -417,6 +467,17 @@ canvas {
   }
   .techIcons {
     text-align: center;
+  }
+  #underwork {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    text-align: center;
+    padding: 1rem;
   }
 }
 
