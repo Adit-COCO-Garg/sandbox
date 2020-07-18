@@ -1,0 +1,34 @@
+    <a href="https://github.com/bobaSquad/homewerkbot" target="_blank" rel="noopener noreferrer">
+        <section class="tile">
+            <span class="status">ONGOING</span>
+            <header>
+                <h1 id="roasterH1">Roaster</h1>
+                <section class="techIcons">
+                    <!-- <img src="Assets/icons8-nodejs.svg" alt="node js icon"> -->
+                    <img src="Assets/atlas.png" alt="Mongo DB atlas icon">
+                    <img src="Assets/mongoDB.png" alt="Mongo DB icon">
+                    <i class="fab fa-python pythonIcon"></i>
+                    <img src="Assets/flask.png" alt="">
+                </section>
+            </header>
+            <article>
+                <p>Get roasted for not doing your work and procastinating.</p>
+            </article>
+        </section>
+    </a>
+    <a href="#" target="_blank" rel="noopener noreferrer">
+        <section class="tile">
+            <span class="status">ONGOING</span>
+            <header>
+                <h1 id="quantaH1">Ahoy</h1>
+                <section class="techIcons">
+                    <!-- <img src="Assets/puppeteer-icon.svg" alt="puppeteer icon">
+                    <img src="Assets/icons8-firebase.svg" alt="firebase icon">
+                    <img src="Assets/icons8-nodejs.svg" alt="node js icon"> -->
+                </section>
+            </header>
+            <article>
+                <p>Ahoy - A maritime geofencing communication application. More project details to come soon.</p>
+            </article>
+        </section>
+    </a>
