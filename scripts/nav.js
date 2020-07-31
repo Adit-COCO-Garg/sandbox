@@ -27,7 +27,7 @@ function openHamburger(){
 }
 
 function resizedHam(){
-    if (screen.width > 767){
+    if (screen.width > 992){
         hamburger.classList.remove("is-active");
         navElem.style.display = "flex";
         state = false;

@@ -19,10 +19,19 @@
     <script src="scripts/nav.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/p5"></script>
     <script src="scripts/perlinRedux.js"></script>
+    <style>
+        /* custom styling for landing page */
+        .techIcons{
+            justify-content: flex-end;
+        }
+    </style>
 </head> 
 <body>
 <section id="top">
-    <a href=""><h1>Adit</h1></a>
+    <section id="topLeftLinks">
+        <a href=""><h1>Adit</h1></a>
+        <a href="/about.html"><span>ABOUT <br> ME</span></a>
+    </section>
     <button class="hamburger hamburger--elastic" type="button"
     aria-label="Menu" aria-controls="navigation" aria-expanded="true/false">
         <span class="hamburger-box">
@@ -45,7 +54,8 @@
             love creating experiences that are unique, intuitive, and simple yet elegant. 
         </p>
     </section>
-    <section class="introsectionMain" id="disasterTrackerSection" onclick="">
+    <span class="featuredP">FEATURED PROJECTS</span>
+    <section class="introsectionMain" >
         <!-- <span id="roleStat">SOLO</span> -->
         <header>
             <h1>disaster <br> tracker</h1>
