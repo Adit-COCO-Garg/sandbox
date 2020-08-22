@@ -17,6 +17,3 @@ The website uses up to date JavaScript (ECMAScript 2019), SCSS (SASS/ CSS), and 
 A snapshot of the website  
 `>> gif coming soon`  
 
-
-![Portfolio Image](Assets/GitHubAssets/Portfolio.png)
-
