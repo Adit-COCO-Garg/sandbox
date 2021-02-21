@@ -238,6 +238,9 @@ ul, blockquote {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .tiles .tile {
@@ -592,6 +595,7 @@ canvas {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100vw;
+    position: fixed;
   }
   .techIcons {
     text-align: center;
