@@ -198,9 +198,10 @@ ul, blockquote {
   color: #838383;
   letter-spacing: 1rem;
   display: block;
-  width: 70%;
-  max-width: 800px;
-  margin: 2rem auto 1rem auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 2rem auto 0 auto;
 }
 
 .introsectionMain {
