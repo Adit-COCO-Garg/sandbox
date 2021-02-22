@@ -596,7 +596,6 @@ canvas {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100vw;
-    position: fixed;
   }
   .techIcons {
     text-align: center;
@@ -611,6 +610,15 @@ canvas {
     margin: 0;
     text-align: center;
     padding: 1rem;
+  }
+  .featuredP {
+    text-align: center;
+  }
+  #NINDO {
+    margin: auto 2rem;
+  }
+  #NINDO br {
+    line-height: 2rem;
   }
 }
 
