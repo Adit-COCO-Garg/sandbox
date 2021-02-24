@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/hamburgers.css">
-    <link rel="stylesheet" href="styles/production/main.css">
+    <link rel="stylesheet" href="index.css">
     <script src="https://kit.fontawesome.com/ea2986cba4.js" crossorigin="anonymous"></script>
     <title>Adit Garg Portfolio</title>
     <link rel="apple-touch-icon" sizes="180x180" href="Assets/favicon/apple-touch-icon.png">
@@ -16,231 +16,34 @@
     <link rel="shortcut icon" href="Assets/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="Assets/favicon/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
-    <script src="scripts/nav.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/p5"></script>
-    <script src="scripts/perlinRedux.js"></script>
 </head>
 
 <body>
-    <section id="top">
-        <section id="topLeftLinks">
-            <a href="/index">
-                <h1>Adit</h1>
-            </a>
-            <a href="/about"><span>ABOUT <br> ME</span></a>
-        </section>
-        <button class="hamburger hamburger--elastic" type="button" aria-label="Menu" aria-controls="navigation"
-            aria-expanded="true/false">
-            <span class="hamburger-box">
-                <span class="hamburger-inner "></span>
-            </span>
-        </button>
-        <nav>
-            <!-- <a href="/index"></a> -->
-            <span class="selectedBtn">HOME</span>
-            <a href="/design">DESIGN</a>
-            <a class="typeform-share link" href="https://aditgarg.typeform.com/to/akEPdF" data-mode="popup"
-                data-hide-headers=true data-hide-footer=true data-submit-close-delay="2" target="_blank">CONTACT </a>
-            <script>
-                (function () {
-                    var qs, js, q, s, d = document,
-                    gi = d.getElementById,
-                    ce = d.createElement,
-                    gt = d.getElementsByTagName,
-                    id = "typef_orm_share",
-                    b = "https://embed.typeform.com/";
-                    if (!gi.call(d, id)) {
-                        js = ce.call(d, "script");
-                        js.id = id;
-                        js.src = b + "embed.js";
-                        q = gt.call(d, "script")[0];
-                        q.parentNode.insertBefore(js, q)
-                    }
-                })()
-                </script>
-            <a href="/Adit Garg Resume.pdf" target="_blank" rel="noopener noreferrer">RESUME</a>
-        </nav>
-    </section>
-    <section id="NINDO">
-        <span>I</span>
-        <p>
-            am driven by curiosity and a passion to innovate and lead! <br>
-            research, design, and code.<br>
-            love creating experiences that are unique, intuitive, and simple yet elegant.
-        </p>
-    </section>
-    <div class="featuredP">FEATURED PROJECTS</div>
+    <div id="container">
+        <main>
+            <section class="content">
+                <h1>This portfolio is under major renovations</h1>
+                <p>Until the portfolio is ready please refer to alternatives below!</p>
+                <section id="social-links">
+                    <a href="https://github.com/Adit-COCO-Garg" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"
+                        id="gitIcon"></i></a>
+                    <a href="https://www.behance.net/aditgarg2178df" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-behance" id="behanceIcon"></i></a>
+                    <a href="https://www.linkedin.com/in/aditgarg21k/" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-linkedin-in"></i></a>
+                    <a href="https://stackoverflow.com/users/8639892/adit-coco" target="_blank" rel="noopener noreferrer"><i
+                        class="fab fa-stack-overflow" id="stackoverflowIcon"></i></a>
+                </section>
+                <a  class="resume" href="/Adit Garg Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+            </section>
+            
+                
+        </main>
+        
+        <img src="https://media.giphy.com/media/23344oT8UJlbG/giphy.gif" alt="">
+    </div>
     
-    <main class="tiles">
-        
-        <a href="https://github.com/Adit-COCO-Garg/Resto" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ONGOING</span>
-                <header>
-                    <h1 style=>Resto</h1>
-                    <section class="techIcons">
-                        <i class="fab fa-html5 htmlIcon" alt="HTML 5 icon"></i>
-                        <i class="fab fa-sass sassIcon" alt="SASS icon"></i>
-                        <img src="Assets/icons8-nodejs.svg" alt="node JS icon">
-                        <i class="fab fa-react"></i>
-                        <img class="atlasIcon" src="Assets/atlas.png" alt="Mongo DB Atlas">
-                        <img class="expressIcon" src="Assets/express-facebook-share.png" alt="Express JS icon">
-    
-                    </section>
-                </header>
-                <article>
-                    <p>Easy to use online food delievery system and restaurant page manager for local restaurants in ROC. Demo on request</p>
-                </article>
-            </section>
-        </a>
-        <a href="https://github.com/JACKPOT-MONDAY/Jackpot" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ONGOING</span>
-                <header>
-                    <h1>Jackpot</h1>
-                    <section class="techIcons">
-                        <i class="fab fa-html5 htmlIcon" alt="HTML 5 icon"></i>
-                        <i class="fab fa-sass sassIcon" alt="SASS icon"></i>
-                        <i class="fab fa-react"></i>
-                    </section>
-                </header>
-                <article>
-                    <p>Make Monday.com fun again! Bring joy to the platform and make collaboration no matter if remote or in-person fun!</p>
-                </article>
-            </section>
-        </a>
-        <a href="https://github.com/Adit-COCO-Garg/S-COCO" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ONGOING</span>
-                <header>
-                    <h1>SCOCO</h1>
-                    <section class="techIcons">
-                        <i class="fab fa-sass sassIcon" alt="SASS icon"></i>
-                    </section>
-                </header>
-                <article>
-                    <p>A simple, fast, elegant SCSS framework.</p>
-                </article>
-            </section>
-        </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ON REQUEST</span>
-                <header>
-                    <h1 id="roasterH1">Roaster</h1>
-                    <section class="techIcons">
-                        <img class="dialoglflowIcon" src="Assets/dialogflow.png" alt="Google's Dialog Flow">
-                        <img class="atlasIcon" src="Assets/atlas.png" alt="Mongo DB Atlas">
-                        <img class="herokuIcon" src="Assets/heroku.png" alt="">
-                    </section>
-                </header>
-                <article>
-                    <p>Get roasted for your upcoming deadlines and chronic procrastination.</p>
-                </article>
-            </section>
-        </a>
-        <a href="https://github.com/Adit-COCO-Garg/IGME330/tree/master/QuantaRNG" target="_blank"
-            rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ONGOING</span>
-                <header>
-                    <h1 id="quantaH1">QuantaRNG</h1>
-                    <section class="techIcons">
-                        <img src="Assets/puppeteer-icon.svg" alt="puppeteer icon">
-                        <img src="Assets/icons8-firebase.svg" alt="firebase icon">
-                        <img src="Assets/icons8-nodejs.svg" alt="node js icon">
-                    </section>
-                </header>
-                <article>
-                    <p>A true random number generator powered by IBM's Quantum experience</p>
-                </article>
-            </section>
-        </a>
-
-        <a href="https://github.com/Adit-COCO-Garg/IGME330/blob/master/giphyFinder" target="_blank"
-            rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">FINISHED</span>
-                <header>
-                    <h1 id="giphyH1">giphyFinder</h1>
-                    <section class="techIcons">
-                        <i class="fab fa-html5 htmlIcon" alt="HTML 5 icon"></i>
-                        <i class="fab fa-sass sassIcon" alt="SASS icon"></i>
-                        <i class="fab fa-js jsIcon" alt="Javascript icon"></i>
-                    </section>
-                </header>
-                <article>
-                    <p>A totally awesome GIF finder! An exploration into a responsive & dynamic masonry layout</p>
-                </article>
-            </section>
-        </a>
-        <a href="https://people.rit.edu/ag9126/330/exercises/project2/" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">FINISHED</span>
-                <header>
-                    <h1 id="audioH1">Audio Visualizer & lofi effect</h1>
-                    <section class="techIcons">
-                        <i class="fab fa-html5 htmlIcon" alt="HTML 5 icon"></i>
-                        <i class="fab fa-sass sassIcon" alt="SASS icon"></i>
-                        <i class="fab fa-js jsIcon" alt="Javascript icon"></i>
-                    </section>
-                </header>
-                <article>
-                    <p>An online audio visualizer and mixer with lofi reverb effects</p>
-                </article>
-            </section>
-        </a>
-        
-        <a href="https://github.com/AhoyHacks/AhoyApp" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ONGOING</span>
-                <header>
-                    <h1 id="ahoyScallywagH1">Ahoy Scallywag</h1>
-                    <section class="techIcons">
-                        <i class="fab fa-html5 htmlIcon" alt="HTML 5 icon"></i>
-                        <i class="fab fa-sass sassIcon" alt="SASS icon"></i>
-                        <img src="Assets/icons8-firebase.svg" alt="firebase icon">
-                        <img src="Assets/icons8-nodejs.svg" alt="node JS icon">
-                        <img class="atlasIcon" src="Assets/atlas.png" alt="Mongo DB Atlas">
-                        <img class="expressIcon" src="Assets/express-facebook-share.png" alt="Express JS icon">
-                        
-                    </section>
-                </header>
-                <article>
-                    <p>Ahoy sailor, ye feelin a wee lil lonely on ya ship - fear not! Those darn other ships may annoy ye more now with this shinin new dark magic radio app</p>
-                </article>
-            </section>
-        </a>
-        <a href="https://github.com/Adit-COCO-Garg/Flutter-Lab" target="_blank" rel="noopener noreferrer">
-            <section class="tile">
-                <span class="status">ONGOING</span>
-                <header>
-                    <h1 id="audioH1">Flutter lab</h1>
-                    <section class="techIcons">
-                        <img src="Assets/icons8-flutter-48.png" alt="flutter icon">
-                    </section>
-                </header>
-                <article>
-                    <p>A sandbox of flutter projects!</p>
-                </article>
-            </section>
-        </a>
-        
-    </main>
-
-    <aside id="asideSocialLinks">
-        <a href="https://github.com/Adit-COCO-Garg" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"
-                id="gitIcon"></i></a>
-        <a href="https://www.behance.net/aditgarg2178df" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-behance" id="behanceIcon"></i></a>
-        <a href="https://www.linkedin.com/in/aditgarg21k/" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-linkedin-in"></i></a>
-        <a href="https://stackoverflow.com/users/8639892/adit-coco" target="_blank" rel="noopener noreferrer"><i
-                class="fab fa-stack-overflow" id="stackoverflowIcon"></i></a>
-    </aside>
-
-
+  
 </body>
 
 </html>
