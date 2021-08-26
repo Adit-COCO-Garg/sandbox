@@ -3,13 +3,13 @@
 h1{
   font-family: 'Inknut Antiqua', serif;
   margin: 0;
-  font-size: 6rem;
-  line-height: 8rem;
+  font-size: 4vw;
+  line-height: 6vw;
   
 }
 p, a{
   font-family: 'Work Sans', sans-serif;
-  font-size: 3rem;
+  font-size: 2vw;
 }
 .resume{
   display: block;
@@ -35,6 +35,7 @@ body{
   margin: 0;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 #container{
   width: fit-content;
@@ -42,10 +43,14 @@ body{
   color: white;
   display: grid;
   grid-template-columns: 2fr 1fr;
+
+  .content {
+    width: 100%;
+  }
 }
 
 img{
   grid-column: 2 / 3;
-  width: 20rem;
+  width: 20vw;
   margin-top: 3rem;
 }
